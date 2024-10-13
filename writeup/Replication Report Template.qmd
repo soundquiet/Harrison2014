@@ -32,8 +32,8 @@ Some potential challenges in this project include learning each statistic method
 Links:
 
 - [Github repo](https://github.com/soundquiet/Harrison2014)
-- [Ranking Visualization of Correlation using Weber's Law](https://github.com/soundquiet/Harrison2014/original_paper/Harrison2014.pdf) by Harrison et al.
-- [Beyond Weber’s Law: A Second Look at Ranking Visualizations of Correlation](https://github.com/soundquiet/Harrison2014/original_paper/Kay2016.pdf) by Kay and Heer
+- [Ranking Visualization of Correlation using Weber's Law](https://github.com/soundquiet/Harrison2014/blob/main/original_paper/Harrison2014.pdf) by Harrison et al.
+- [Beyond Weber’s Law: A Second Look at Ranking Visualizations of Correlation](https://github.com/soundquiet/Harrison2014/blob/main/original_paper/Kay2016.pdf) by Kay and Heer
   - A follow-up analysis of the first paper.
 
 
