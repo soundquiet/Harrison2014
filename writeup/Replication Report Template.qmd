@@ -1,6 +1,6 @@
 ---
 title: "Reproducibility of Ranking Visualization of Correlation using Weber's Law by Harrison et al. (2014, TVCG)"
-author: "Fuling Sun (fusun@ucsd.edu)"
+author: "Fuling Sun"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 format:
   html:
