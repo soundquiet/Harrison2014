@@ -1,6 +1,6 @@
 ---
-title: "Replication of Study X by Sample & Sample (20xx, Psychological Science)"
-author: "Replication Author[s] (contact information)"
+title: "Reproducibility of Ranking Visualization of Correlation using Weber's Law by Harrison et al. (2014, TVCG)"
+author: "Fuling Sun (fusun@ucsd.edu)"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 format:
   html:
@@ -11,8 +11,30 @@ format:
 <!-- Replication reports should all use this template to standardize reporting across projects.  These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
 
 ## Introduction
+<!--
+A short justification for your choice of experiment in terms of your research interests or research program (1 paragraph). This justification should tell us why you chose this particular paper. (2 points)
+A description of the analyses and techniques that will be required to reproduce these findings, and what the challenges will be (1-2 paragraphs). (2 points)
+A link to the repository and to the original paper (as hosted in your repo). The goal is that we should be able to click on these links and review that your repo is formatted right and look at the original paper.  (1 point)
+-->
 
-[No abstract is needed.]  Each replication project will have a straightforward, no frills report of the study and results.  These reports will be publicly available as supplementary material for the aggregate report(s) of the project as a whole.  Also, to maximize project integrity, the intro and methods will be written and critiqued in advance of data collection.  Introductions can be just 1-2 paragraphs clarifying the main idea of the original study, the target finding for replication, and any other essential information.  It will NOT have a literature review -- that is in the original publication. You can write both the introduction and the methods in past tense.  
+My research focuses on information visualization, particularly how visualizations can be design effectively to align with authors' communication goals and support readers' analytic tasks. This paper, along with the follow-up study by Kay and Heer, models the perception of correlation afforded by visualizations, providing quantitative methods to compare and rank them. Replicating this study will contribute to my future research, both in theoretical development and tool design, while also enhancing my skills in statistical analysis.
+
+To reproduce the analysis from the paper, I will use the open-source data provided by the authors, follow the analysis pipeline, and implement the process using R. Specifically, I will conduct the following tasks:
+
+1. **Data processing:** I will understand the meaning of the variables in the dataset, and aggregate the data based on the experimental conditions, as described in Harrison et al. 
+2. **Statistical analysis:** I will perform analysis on both the aggregated data (from Harrison et al.) and the individual judgements (from Kay and Heer), applying techniques such as the Kruskal-Wallis test, Mann-Whitney-Wilcoxon tests, linear models, log-linear models and Bayesian estimation.
+3. **Result comparison:** I will compare my results with those reported in the original papers to identify any discrepancies.
+4. **Additional analysis:** I will propose and conduct further analyses to explore new questions that arise during the process. 
+
+
+Some potential challenges in this project include learning each statistic method and implementing them in R, which I am not yet fully familiar with. Additionally, since part of the analysis will draw from the follow-up study, I will need to understand the differences between these methods, their strengths and limitations, and when to apply each one.
+
+Links:
+
+- [Github repo](https://github.com/soundquiet/Harrison2014)
+- [Ranking Visualization of Correlation using Weber's Law](https://github.com/soundquiet/Harrison2014/original_paper/Harrison2014.pdf) by Harrison et al.
+- [Beyond Weber’s Law: A Second Look at Ranking Visualizations of Correlation](https://github.com/soundquiet/Harrison2014/original_paper/Kay2016.pdf) by Kay and Heer
+  - A follow-up analysis of the first paper.
 
 
 ## Methods
